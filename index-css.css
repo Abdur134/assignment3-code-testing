@@ -1,0 +1,46 @@
+
+/* https://github.com/Programming-Hero-Web-Course4/b7-legal-house-Abdur134 */
+ul li{font-weight: bold;}
+header{background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+        
+        .section-2 div{width: 60%; }
+
+        .carousel-caption img{width: 100px; 
+            height: 100px;
+            border-radius: 50%;}
+        .carousel-item{height: 80vh;}
+    
+    /* footer */
+        
+            .footer-container{padding: 80px;}
+
+        .s6 p,li{
+                color: rgba(245, 247, 248, 0.532);
+                list-style: none;
+                margin-bottom: 10px;}
+        .s6 h3,img{margin-bottom: 30px;}                
+        
+        .s6-input{width: 120px;}
+        .s6-btn{background-color: rgba(245, 164, 24, 0.881);}
+        .s6-btn:hover{background-color: rgba(245, 164, 24, 0.982);}
+        
+        /* responsive for mobiles */
+@media screen and (max-width:576px) {
+
+    .section-2 div{width: 95%;}
+    .s3-part{width: 90%!important;}
+    .s3-text {width: 90%!important;}
+    .s4{width: 90%!important;}
+    .s5{width: 100%!important;}
+    
+}
